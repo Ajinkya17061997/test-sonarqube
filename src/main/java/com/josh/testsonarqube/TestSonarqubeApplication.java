@@ -17,6 +17,13 @@ public class TestSonarqubeApplication {
 		Object o = null;
 		System.out.println(o.toString());
 	}
+
+	public static void doTest3(){
+		System.out.println("This is thing");
+		Object o = null;
+		System.out.println(o.toString());
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(TestSonarqubeApplication.class, args);
 	}
