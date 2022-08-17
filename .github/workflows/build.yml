@@ -34,3 +34,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: mvn clean sonar:sonar -Dsonar.host.url=http://localhost:80/ -Dsonar.login=admin -Dsonar.password=Ajinkya@1997
+        
